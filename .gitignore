@@ -1,0 +1,28 @@
+# Bağımlılıklar
+/node_modules
+/.pnp
+.pnp.*
+
+# Next.js çıktıları
+/.next/
+/out/
+/build/
+
+# Yerel ortam değişkenleri
+.env*
+!.env.example
+
+# Loglar
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editör ve işletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+*.pem
+
+# TypeScript tarafından üretilen dosyalar
+*.tsbuildinfo
+next-env.d.ts
